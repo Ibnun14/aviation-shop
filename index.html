@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviation Shop</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/title-logo.png" type="image/x-icon">
+    <!-- Stylesheet -->
+    <style>
+        .card-text{
+            text-align: justify;
+            color: lightgray;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        .about-p{
+            text-align: justify;
+        }
+        .map-area{
+            display: flex;
+            margin-top: 30px;
+            background-image:url(images/Frame\ 59.jpg);
+            background-repeat: no-repeat;
+        }
+        .map-talk{
+            margin-left: 200px;
+        }
+        .subscribe{
+            display: flex;
+            background-repeat: no-repeat;
+            background-color: rgb(104, 126, 113);
+        }
+        .half-width{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <section>
+        <header>
+            <nav class="navbar sticky-md-top-2 navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Aviation Shop BD</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control text-muted me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn text-white btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+    </section>
+    <!-- Carousel -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slider/rsz_1slider-image001.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slider/slider-image002.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slider/rsz_model-aircraft-6349638_1920.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section class="bg-dark bg-gradient">
+        <div>
+            <div class="card mb-3 bg-dark bg-gradient text-white" style="max-width: 100%;">
+                <div class="row g-0 m-4">
+                    <div class="col-md-4">
+                        <img src="images/cards/first-imagesection/aircraft-2228134_1280.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title fst-italic fw-bolder">Celebrate This holiday with Aircraft models!</h5>
+                            <p class="card-text">A model aircraft is a small unmanned aircraft or, in  the case of a scale model, a replica of an existing or imaginary aircraft. Model  aircraft are divided into two basic groups: flying and non-flying. Non-flying models are also termed static, display, or shelf models. Aircraft manufacturers and researchers make wind tunnel  models for testing aerodynamic properties, for basic research, or for the development of new designs. Sometimes only part of the aircraft is modelled.
+
+                            Static models range from mass-produced toys in white metal or plastic to highly accurate and detailed models produced for museum display and requiring thousands of hours of work. Many are available in kits, typically made of injection-moulded polystyrene or resin.
+                                
+                            Flying models range from simple toy gliders made of sheets of paper, balsa, card stock or foam polystyrene to powered scale models built up from balsa, bamboo sticks, plastic, (including both moulded or sheet polystyrene, and styrofoam), metal, synthetic resin, either alone or with carbon fibre or fibreglass, and skinned with either tissue paper, mylar and other materials. Some can be very large, especially when used to research the flight properties of a proposed full scale aircraft. <br>
+                            Currently we supply the finest custom-made military and civilian aircraft models to over 50 different aircraft manufactures and hundreds of the world’s leading aerospace companies in over 68 countries. Each meticulously detailed scale model is custom-manufactured and precisely-engineered to your exact specifications.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 hours ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cards section -->
+    <section class="m-2">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-70">
+                        <img src="images/cards/model-4639843_1920.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark bg-gradient">
+                            <h5 class="card-title text-light">B777-300ER Passenger Airliner</h5>
+                            <p class="card-text">Aviation Shop BD has many model aircraft in 1/144 Scale. Aviation Shop BD also stocks many great aircraft update and detail sets in our aircraft and updates section to help make your model airplane a real show winner! If you are building a model aircraft diorama scene, be sure to check out the diorama details section for ground crew, pilot figures, diorama bases, and airfield and vehicles.</p>
+                         </div>
+                    <div class="card-footer">
+                         <small class="text-muted">Last updated 3 hours ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+              <div class="card h-70">
+                <img src="images/cards/model-4754155_1920.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-dark bg-gradient">
+                  <h5 class="card-title text-light">Thai Airways </h5>
+                  <p class="card-text">The debenture holders' representatives sent a letter to the Company on May 27, 2020 asking the Company to repay all debentures immediately, which caused the debentures to be due immediately. The repayment of such funds is considered to be a default under the terms of the debentures' rights as well. In addition, non-repayment of debt under the relevant debentures There were also 41 sets.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 23 hours ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-70">
+                <img src="images/cards/model-4689072_1920.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-dark bg-gradient">
+                  <h5 class="card-title text-light">Air France</h5>
+                  <p class="card-text">Air France, stylised as AIRFRANCE, is the flag carrier of France headquartered in Tremblay-en-France. It is a subsidiary of the Air France–KLM Group and a founding member of the SkyTeam global airline alliance. As of 2013 Air France serves 36 destinations in France and operates worldwide scheduled passenger and cargo services to 175 destinations in 78 countries and also carried.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 5 hours ago</small>
+                </div>
+            </div>
+        </div>
+    </section> <br>
+            <!-- 2nd div card area  -->
+    <section class="m-2">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col hover-effect">
+              <div class="card h-70">
+                <img src="images/cards/model-4754159_1920.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-dark bg-gradient">
+                  <h5 class="card-title text-light">Korean Air</h5>
+                  <p class="card-text">Korean Air Co., Ltd., operating as Korean Air, is the largest airline and flag carrier of Korea based on fleet size, international destinations and international flights. The airline's global headquarters is located in Seoul, Korea. The present-day Korean Air was established on March 1, 1969, after the Hanjin Group acquired government-owned Korean Air Lines, which had operated since June 1962.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-70">
+                <img src="images/cards/model-4754160_1920.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-dark bg-gradient">
+                  <h5 class="card-title text-light">AirAsia</h5>
+                  <p class="card-text">
+                    AirAsia Berhad is a Malaysian multinational low-cost airline headquartered near Kuala Lumpur, Malaysia. It is the largest airline in Malaysia by fleet size and destinations. AirAsia Group operates scheduled domestic and international flights to more than 165 destinations spanning 25 countries.Its main base is klia2, the low-cost carrier terminal at Kuala Lumpur International Airport</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-70">
+                <img src="images/cards/asiana-airlines-3258720_1920.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-dark bg-gradient">
+                  <h5 class="card-title text-light">Asiana Airlines</h5>
+                  <p class="card-text">Asiana Airlines Inc. is a South Korean airline headquartered in Seoul. In 2019, it accounted for 25% of South Korea's international aviation market and 20% of its domestic market. It maintains its international hub at Seoul's Incheon International Airport and its domestic hubs at Gimpo International Airport, and Gimhae International Airport in Busan. Founded: 17 February 1988 (as Seoul Airlines)</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- About Us -->
+    <section class="mt-3 mb-0">
+        <div class="bg-dark bg-gradient">
+                <h1 class="text-center text-light bg-dark bg-gradient border-bottom pb-2 pt-1">Know more about us</h1>
+                <p class="bg-dark bg-gradient border-bottom  text-white  about-p p-4">
+                    The idea of Aviation Shop BD was first conceived in December 1999. We decided to create a site that was dedicated to our childhood passion, model building. We understand the positive effects that modeling has on people's lives and want to share that with others. Our hope at Aviation Shop BD is to continue to support the hobby industry by providing others worldwide with any hobby product they need. 
+
+                    Aviation Shop BD makes it easy for everyone to shop online and find everything they need in one convenient place. We are busy enhancing and updating the site on a daily basis to keep it fresh and interesting for every visitor that stops by. You will find a wide variety of models and many different skill levels to accommodate all builders. Visit the site often to see the many different items we offer.
+
+                    Aviation Shop BD also stocks a wide variety of paints, supplies, detailing sets, and books to satisfy every customer's needs. There are also many educational and historical items that are perfect for science and school projects. We have also expanded our product line to include puzzles, paint by number sets, science kits, and more
+
+                    We have made navigation of the site simple and our shopping cart is secure, fast and dependable. We strive to provide you with a safe & rewarding online shopping experience.
+
+                    In 2016, Aviation Shop BD relocated to Magnolia, NJ, to a 10,000-square foot warehouse, to provide even quicker shipping times and faster service to all of our customers. Aviation Shop BD has been serving customers in the online retail business for over 20 years. Our company is the result of hard work, determination and passion. We hope that you will enjoy our site just as much as we do!
+                </p>
+                <div class="fw-bold fs-5 text-center text-white pb-2">
+                    <table class="table table-dark table-striped">
+                        <li>Aviation Gift Related Online Shop.</li>
+                        <li>First Aviation Gift Shop in Bangladesh.</li>
+                        <li>Delivery Charge for Inside Dhaka- 60/- (Cash on Delivery)</li>
+                        <li>Delivery Charge for Outside Dhaka- 100/- ( Full Payment Advance Need with Product Price )</li>
+                    </table>
+                </div>
+        </div>
+    </section>
+
+    <!-- Map section  -->
+    <section class="map-area w-100 m-3">
+        <div class="border border-warning p-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.688505693939!2d90.39657661462516!3d23.79410414302316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7170fe57eb5%3A0x977309bc63511e9d!2sBanani%20DOHS%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1627197837115!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="map-talk w-100">
+            <h1 class="mt-5 pt-5 text-center fs-2 fw-bolder"">Find us on the Google Map!</h1>
+            <p class="mt-5 pt-5  fw-bold">
+                Banani DOHS also known as "Old DOHS", is a neighborhood of Dhaka, located in Banani. It was created under the Defense Officers Housing Scheme scheme of the Government of Bangladesh. The neighborhood falls under the Jurisdiction of Bhashantek Police Station. The area is governed by the DOHS parishad.
+            </p>
+        </div>
+    </section>
+
+    <!-- Form Section  -->
+    <section class="subscribe mt-3 p-5">
+        <div class="form half-width ">
+            <h1 class="p-3">Join us for further updates</h1>
+            <form class="w-75">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I agree to terms and conditions</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+        <div class="half-width pt-2">
+            <h2 class="text-center">Watch on Youtube</h2> <br>
+                <iframe class="mt-3 ms-5 ps-5" width="560" height="315" src="https://www.youtube.com/embed/ITWCvlloZBw?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+<footer class="text-center text-light bg-dark mt-3 pb-2">
+    <h1 class="fw-bolder">Thanks a ton for visiting!</h1>
+    <div>
+        <marquee class="border-top border-warning pt-2 fw-bold"> © 1996-2021| All rights reserved by Aviation Shop BD</marquee>
+    </div>
+</footer>
+</html>
